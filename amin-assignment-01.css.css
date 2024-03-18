@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    width: 100vw;
+    font-size: 36px;
+}
+.main {
+display: flex;
+flex-wrap: wrap;
+}
+.header {
+    font-size: 32px;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 10px;
+    box-sizing: border-box;
+}
+.logo {
+    font-size: 32px;
+}
+.menu { background-color: teal;
+    height: 60vh;
+    width: 20vw;}
+.content {background-color: red;
+    height: 60vh;
+    width: 80vw;
+}
+.footer { background-color: blueviolet;
+height: 20vh;
+width: 100vw; }
+
+.ruslan-display-regular {
+    font-family: "Ruslan Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .pages {
+    display: flex;
+    font-size: 21px;
+    list-style-type: none;
+    gap: 15px;
+  }
